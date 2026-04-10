@@ -25,7 +25,7 @@ Tint: #d0ebff (Arctic)
 Shade: #1c7ed6 (Deep Sea)
 
 SECONDARY
-Base:  (Lavender)
+Base: #9775fa (Lavender)
 Tint: #c5dbff (Moonlight Iris)
 Shade: #1c7ed6 (Deep Sea)
 
@@ -115,10 +115,22 @@ ul {
   text-decoration: none;
 }
 
-.btn-primary {
+.btn-primary:link, 
+.btn-primary:visited {
   color: #339af0;
 }
 
-.btn-secondary {
-  color:  #9775fa;
+.btn-primary:hover,
+.btn-primary:active {
+   color:#1c7ed6;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+  color: #9775fa;
+}
+
+.btn-secondary:hover, 
+.btn-secondary:active {
+  color: #7048e8;
 }
